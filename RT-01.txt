@@ -47,4 +47,6 @@ encapsulation dot1q 50
 ip add 172.16.0.121 255.255.255.248
 ipv6 add 2001:DB8:0:50::1/64
 ipv6 add FE80::1 link-local
+exit
+ipv6 unicast-routing
 do wr
