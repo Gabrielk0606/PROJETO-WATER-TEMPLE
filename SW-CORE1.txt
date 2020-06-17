@@ -1,8 +1,7 @@
 enable
 configure terminal
 hostname SW-CORE1
-banner motd "ACESSO APENAS PARA O DEPTO. DE TI DA WATER
-TEMPLE LTDA."
+banner motd "ACESSO APENAS PARA O DEPTO. DE TI DA WATER TEMPLE LTDA."
 enable secret TempleWater-123#
 username linkdoti privilege 15 secret hey-listen-3*
 ip domain-name watertemple.local
