@@ -15,7 +15,7 @@ login local
 exit
 service password-encryption
 security password min-length 8
-login block-for 180 attempts within 60
+login block-for 180 attempts 3 within 60
 interface s0/0/1
 shutdown
 interface s0/0/0
